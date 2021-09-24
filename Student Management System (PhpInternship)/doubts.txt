@@ -1,0 +1,12 @@
+Doubts
+
+1). "Table" heading in arrays.php.
+2). How super global variable works? {session variables}.  {DONE}
+3). How to store data from two different input fields into one database column? {name = firstname + lastname} 
+
+
+
+4). Facilities_id  ek hi aa rha. {DONE}
+5). Id in students_form problem.
+6). Can a php function be called using onclick in a button? 
+    How?

@@ -1,0 +1,56 @@
+body
+ {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     background-position: center;
+     height:max-content;
+ }
+ .sign-in
+ {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(224, 116, 116, 0.3);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    background: white;
+}
+.input-box
+{
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+}
+img
+{
+    width: 70px;
+    margin-top: -50px;
+}
+
+button
+{
+    width: 49%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #21afde;
+    color: white;
+    font-weight: 700;
+}
+
+.reset-button:hover
+{
+    background-color: rgb(236, 29, 29);
+}
+.submit-button:hover
+{
+    background-color: rgb(6, 228, 143);
+}
+
+p
+{
+    margin-top: 3%;
+    text-align: center;
+}

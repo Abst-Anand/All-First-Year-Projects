@@ -1,0 +1,122 @@
+*{
+    margin: 0 ;
+}
+.cont
+{
+    background-color: white;
+    display: inline;
+}
+.image
+{
+    margin-left: 8%;
+    width: 60%;
+    height: 8%;
+}
+
+.name
+{
+    text-align: right;
+    color: turquoise;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 11%;
+    font-size: 50px;
+}
+.user_welcome
+{
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    margin-left: 87%;
+    background-color: rgb(203, 252, 249);
+
+}
+.name:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.navi
+{
+    position: sticky;
+}
+.modal-header, .modal-footer
+{
+    background-color: #c9e8efb3;
+}
+.modal-body
+{
+    background-color: rgba(212, 245, 217, 0.829);
+}
+.user_profile
+{
+    margin-left: 0;
+    padding: 3%;
+    font-size: medium;
+    font-weight: 700;
+    
+}
+
+.caro
+{
+   
+    width: 79%;
+    
+    display: block;
+    margin-left: 0%;
+    margin-right: 11%;
+  
+}
+img
+{
+    width: 85%;
+    height: 500px;
+}
+
+.cards
+{
+    display: inline-flex;
+}
+.details
+{
+    margin: 30px;
+    padding: 10px;
+    border: 1px dashed turquoise;
+    text-align: center;
+
+}
+
+/*MODAL CSS*/
+/*
+.main
+{
+    background-color: rgb(192, 152, 172);
+}
+.input-box
+{
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border-radius: 20px;
+}
+.form
+ {
+     width: 400px;
+   
+     padding: 45px;
+     margin: 0 auto 0;
+     text-align: center;
+ }
+ 
+
+
+.launch
+{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+*/
+
+

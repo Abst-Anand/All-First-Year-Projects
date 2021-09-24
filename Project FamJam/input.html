@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="css/input.css">
+    
+</head>
+<body>
+    <div class="sign-up-form">
+       
+        <h1>Expense Sheet</h1>
+        <form action="php/input.php"  method="POST">
+            
+            <input type="text" class="input-box" placeholder="Name"  name="name" required>
+            <input type="number" class="input-box" placeholder="Total College Fee Per Semester"  name="Fee_per_semester" required>  
+            <input type="number" class="input-box" placeholder="Semester Number"  name="current_semester" required>                    
+            <input type="number" class="input-box" placeholder="Amount Spent Last Month"  name="Last_Month">
+            <input type="number" class="input-box" placeholder="Amount Needed This Month" name="This_Month" required >
+            <hr>
+            Any EMI? &nbsp&nbsp&nbsp&nbsp
+                     <input type="radio" name="emi" value="yes">Yes
+                     <input type="radio" name="emi" value="no">No<br>
+            <button type="submit" class="signup-btn" name="signup">Submit</button>
+            <button type="reset" class="signup-btn" name="signup">Reset</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

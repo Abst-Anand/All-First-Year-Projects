@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+    <script src="js/js2.js" type="text/javascript"></script>
+    <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css" />
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
+    <title>JS + jQuery</title>
+    <style>
+        .container {
+            margin-left: 25%;
+            margin-right: 25%;
+            border: 1px solid rebeccapurple;
+        }
+
+        .hover {
+            width: 16%;
+            margin: auto 6%;
+            padding: 2%;
+            background-color: aquamarine;
+            text-align: center;
+            display: inline-block;
+        }
+        .animate
+        {
+            background-color: aquamarine;
+            width: 100%;
+            text-align: center;
+            padding:1% ;
+        }
+        button:active
+        {
+            background-color: rgb(231, 119, 175);
+        }
+
+        #pr {
+            text-align: center;
+            background-color: cadetblue;
+        }
+
+        .font_bold {
+            font-weight: 800;
+            color: seagreen;
+            text-transform: uppercase;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $('#myatag').click(function (event) {
+                event.preventDefault();
+                $(this).addClass('font_bold');
+            });
+
+            $('#hide_para').click(function (event) {
+                $(this).css("color:blue");
+                $(this).hide('slow');
+                // $(this).blur;
+            });
+            $("#anibtn").click(function () {
+                $("#anmt").animate(
+                    {
+                        fontSize: "3em",
+                        color: "red",
+                        opacity: 0.5,
+                    }, 3500
+                );
+
+            });
+        });
+
+        function add_element() {
+            var ele = "<h1>h1 heading added</h1>"; //create element using html
+            //var ele2 = $("<p></p>").text("Text.");  //create element using jQuery
+
+            $("#add").append(ele);
+        }
+        //DataTable
+        $(document).ready(function () {
+            $('#example').DataTable({
+                columnDefs: [{
+                    targets: [0],
+                    orderData: [0, 1]
+                }, {
+                    targets: [1],
+                    orderData: [1, 0]
+                }, {
+                    targets: [4],
+                    orderData: [4, 0]
+                }]
+            });
+        });
+
+
+
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h4 style="text-align: center;">JavaScript</h4>
+        <div class="hover">
+            Hover Effect <br>
+            <p id="pr" onmouseover="mousehover()">OnHover</p>
+        </div>
+
+        <div class="hover">
+            Click Effect <br>
+            <button type="button" id="btnn" onclick="alertme()">OnClick</button>
+        </div>
+        <div class="hover">
+            <button type="button" onclick="changeParaContent()"> Para Change</button>
+            <p id="para">Before change para</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h4 style="text-align: center;">jQuery</h4>
+        <div class="hover">
+            <a id="myatag" href="https://google.c">google.com</a>
+        </div>
+        <div class="hover">
+            <p id="hide_para" style="cursor: pointer;color: blue;">Click to hide</p>
+        </div>
+        <div class="hover">
+            <button onclick="add_element()">Click to add element</button>
+        </div>
+    </div>
+        <div class="animate">
+            <p id="add">
+                add here <br>
+            </p>
+        </div>
+
+   
+    <div id="anmt" class="animate">
+        <h4>Animation using jQuery</h4>
+        <button id="anibtn">Click to animate</button>
+    </div>
+
+    <!--DataTables-->
+    <table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger</td>
+                <td>Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>$320,800</td>
+            </tr>
+            <tr>

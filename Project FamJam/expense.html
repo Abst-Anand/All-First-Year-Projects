@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/expense.css">
+    <title>Expense Overview</title>
+</head>
+
+<body>
+    <table class="table1">
+        <tr>
+            <td>
+                <div class="gauge">
+                    <div class="gauge__body">
+                        <div class="gauge__fill"></div>
+                        <div class="gauge__cover"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+<script>
+    const gaugeElement = document.querySelector(".gauge");
+
+    function setGaugeValue(gauge, value) {
+        if (value < 0 || value > 1) {
+            return;
+        }
+
+        gauge.querySelector(".gauge__fill").style.transform = `rotate(${value / 2
+            }turn)`;
+        gauge.querySelector(".gauge__cover").textContent = `${Math.round(
+            value * 100
+        )}%`;
+    }
+
+    setGaugeValue(gaugeElement, 0.3);
+    
+
+</script>
+
+</html>

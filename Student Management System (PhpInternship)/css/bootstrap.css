@@ -1,0 +1,48 @@
+.cont
+{
+    background-color: white;
+    display: inline;
+}
+.image
+{
+    margin-left: 8%;
+    width: 60%;
+    height: 8%;
+}
+.name
+{
+    text-align: right;
+    color: turquoise;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 11%;
+    font-size: 50px;
+}
+.name:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.navi
+{
+    position: sticky;
+}
+
+.caro
+{
+    width: 50%;
+    height: 40%;
+}
+
+.cards
+{
+    display: inline-flex;
+}
+.details
+{
+    margin: 30px;
+    padding: 10px;
+    border: 1px dashed turquoise;
+    text-align: center;
+
+}

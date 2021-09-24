@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Log in</title>
+        
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="sign-in">
+            <img src="images/download (1).jpg">
+            <h1>Sign In</h1>
+            <form action="home.html" method="POST" >
+
+                <input type="text" class="input-box" placeholder="Enter Provided Username" name="email" required>
+                <span class="invalid"></span>
+                <input type="password" class="input-box" placeholder="Enter Provided Password" name="password"  required>  
+                <span class="invalid"></span>
+                <button type="submit" class="signin-btn" id="log-in" name= "submit"  >Sign In</button>
+                <button type="reset" class="signin-btn"  name= "submit">Reset</button>
+
+
+            </form>
+        </div>
+
+    </body>
+    <script>
+        window.onload = ()=>{
+            this.sessionStorage.setItem("username", "famjam06");
+            this.sessionStorage.setItem("password", "Mom@99349");
+        }
+
+        var input = document.getElementsByTagName('input');
+        var login = document.getElementById('log-in');
+        var form = document.querySelector('form');
+        form.onsubmit = ()=>{return false}
+
+        login.onclick =() =>
+        {
+            if((input[0].value ==sessionStorage.getItem("username")) &&(input[1].value == sessionStorage.getItem("password")))
+            {
+                form.onsubmit = ()=>{return 1}
+            }
+            else
+            {
+                if((input[0].value != sessionStorage.getItem("username")))
+                {
+                    input[0].nextElementSibling.textContent= "Invalid Username !!";
+                    setTimeout(()=>
+                    {
+                        input[0].nextElementSibling.textContent="";
+                    },4000);
+                }
+                if((input[1].value != sessionStorage.getItem("password")))
+                {
+                    input[1].nextElementSibling.textContent= "Invalid Password !!";
+                    setTimeout(()=>
+                    {
+                        input[1].nextElementSibling.textContent="";
+                    },4000);
+                }
+            }
+        }
+    </script>
+
+
+ </html>

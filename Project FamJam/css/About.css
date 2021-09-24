@@ -1,0 +1,28 @@
+body
+{
+  
+}
+
+.head
+{
+    text-align: center;
+    background: teal;
+    border: rgba(0, 0, 0, 0.3);
+    margin-top: 0%;
+    
+}
+.history
+{
+
+}
+.heading
+{
+    text-align: center;
+    background: cornsilk;
+   
+}
+.para
+{
+    margin-left: 5%;
+    font-size: 25px;
+}

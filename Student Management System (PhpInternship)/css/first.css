@@ -1,0 +1,84 @@
+/*
+font awesome cdn link
+devhints.io/css
+
+div,p implies that style will be added to both div and p.
+div>span implies that style will be added to the span inside the div OR we can give a separate class to that span.
+
+
+*/
+
+*
+{
+  /* 
+    background-color: rgb(129, 247, 188);
+   background-image: url(../Images/istockphoto-1188218256-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  */
+   
+}
+.redspan
+{
+    color: red;
+    font-weight: 800;
+}
+
+img
+{
+    width:24%;
+}
+p
+{
+    background-color: aqua;
+    color: blue;
+    border:4px double brown;
+    height: 80px;
+    padding: 4%;
+
+}
+
+div
+{
+    border: 1px solid blue;
+}
+header
+{
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    border: 2px dashed teal;
+    text-decoration: overline underline;
+
+}
+/*
+nav
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+*/
+table
+{
+    border: 4px solid rgb(178, 178, 250);
+    margin-left: 50%;
+    padding: auto;
+}
+
+td
+{
+    border: 2px solid red;
+    font-weight: 800;
+}
+
+tr
+{
+    border: 1px solid blue;
+}
