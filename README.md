@@ -2,7 +2,7 @@
 These are all web apps.
 
 
-##1 **Abstract**
+##Abstract
 
 --SignUp (user and owner) using  Email OTP verification.
 --Login using Database.
@@ -10,52 +10,57 @@ These are all web apps.
 --Edit/ Delete accounts.
 --Forget Password option included.
 --Ticketing System iff parking lot is booked.
-#Tech Stack:
-    1.HTML
-    2.CSS
-    3.JS
-    4.PHP
-    5.Mysql
 
-##2 **Student Management System(PHP INTERNSHIP)**
+**Tech Stack**:
+
+     -HTML
+     -CSS
+     -JS
+     -PHP
+     -Mysql
+
+##Student Management System(PHP INTERNSHIP)
 
 --SignUp/Login/Edit/Delete, Database included.
 --Taking Words as input and storing respective IDs in the Database to make the system user and admin friendly.
 --Taking an image input from user and storing it in the server.
 --Database connected.
 
-#Tech Stack:
-    1.HTML
-    2.CSS
-    3.jQuery
-    4.PHP
-    5.Mysql
+**Tech Stack**:
+
+     -HTML
+     -CSS
+     -jQuery
+     -PHP
+     -Mysql
 
 
-##3 **Project FamJam**
---Login using only one username and password (NOT EDITABLE) for all familiy members.
---Contains all monthly expenses of each member alongwith their School/ College Fees and deadlines.
---All documents of each members separately.
---Brief history of the family and the past achievements.
---Database connected.
+##Project FamJam
+-Login using only one username and password (NOT EDITABLE) for all familiy members.
+-ontains all monthly expenses of each member alongwith their School/ College Fees and deadlines.
+-All documents of each members separately.
+-Brief history of the family and the past achievements.
+-Database connected.
 
-#Tech Stack:
-    1.HTML
-    2.CSS
-    3.JS
-    4.PHP
-    5.Mysql
+ **Tech Stack**:
 
-##4 **Student Security System**
+     -HTML
+     -CSS
+     -JS
+     -PHP
+     -Mysql
+
+##Student Security System
 --SingUp/Login.
 --Monitering student's activities after entering college/school for their parents.
 --Helping institutions manage their students effectively.
 --IOT yet to installed.
 --Database connected.
 
-#Tech Stack:
-    1.HTML
-    2.CSS
-    3.JS
-    4.PHP
-    5.Mysql
+**Tech Stack**:
+
+     -HTML
+     -CSS
+     -JS
+     -PHP
+     -Mysql
