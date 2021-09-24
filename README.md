@@ -2,7 +2,7 @@
 These are all web apps.
 
 
-##Abstract
+##1.Abstract
 
       -SignUp (user and owner) using  Email OTP verification.
       -Login using Database.
@@ -19,7 +19,7 @@ These are all web apps.
      -PHP
      -sql
 
-##Student Management System(PHP INTERNSHIP)
+##2.Student Management System(PHP INTERNSHIP)
 
       -SignUp/Login/Edit/Delete, Database included.
       -Taking Words as input and storing respective IDs in the Database to make the system user and admin friendly.
@@ -35,12 +35,12 @@ These are all web apps.
      -sql
 
 
-##Project FamJam
-      -Login using only one username and password (NOT EDITABLE) for all familiy members.
-      -Contains all monthly expenses of each member alongwith their School/ College Fees and deadlines.
-      -All documents of each members separately.
-      -Brief history of the family and the past achievements.
-      -Database connected.
+##3.Project FamJam
+       -Login using only one username and password (NOT EDITABLE) for all familiy members.
+       -Contains all monthly expenses of each member alongwith their School/ College Fees and deadlines.
+       -All documents of each members separately.
+       -Brief history of the family and the past achievements.
+       -Database connected.
 
  **Tech Stack**:
 
@@ -50,12 +50,12 @@ These are all web apps.
      -PHP
      -sql
 
-##Student Security System
-      -SingUp/Login.
-      -Monitering student's activities after entering college/school for their parents.
-      -Helping institutions manage their students effectively.
-      -IOT yet to installed.
-      -Database connected.
+##4.Student Security System
+       -SingUp/Login.
+       -Monitering student's activities after entering college/school for their parents.
+       -Helping institutions manage their students effectively.
+       -IOT yet to installed.
+       -Database connected.
 
 **Tech Stack**:
 
