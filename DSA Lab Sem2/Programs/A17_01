@@ -1,0 +1,3 @@
+        //create doubly linked list with n nuner of nodes
+#include<stdio.h>
+
